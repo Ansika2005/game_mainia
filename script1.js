@@ -124,7 +124,7 @@ restartBtn.addEventListener('click', () => {
     updateBoard();
 });
 quitBtn.addEventListener('click', () => {
-    window.location.href = 'first.html'; 
+    window.location.href = 'index.html'; 
 });
 cells.forEach((cell, index) => {
     cell.addEventListener('click', () => handlePlayerMove(index));

@@ -166,7 +166,7 @@ function retryLevel() {
 
 // Quit game and return to first page
 function quitGame() {
-    window.location.href = 'first.html'; 
+    window.location.href = 'index.html'; 
      // Redirect to first page (reload the game)
 }
 

@@ -75,6 +75,6 @@ const restartGame = () => {
 cells.forEach(cell => cell.addEventListener('click', handleCellClick));
 restartButton.addEventListener('click', restartGame);
 quitBtn.addEventListener('click', () => {
-    window.location.href = 'options.html'; 
+    window.location.href = 'index.html'; 
 });
 updateStatusMessage();
