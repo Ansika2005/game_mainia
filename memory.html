@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game with Levels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Memory Card Game</h1>
+    <div class="level-info">
+        <p id="levelText">Level: 1</p>
+        <p id="timerText">Time Left: <span id="timeLeft"></span>s</p>
+    </div>
+    <div class="game-container">
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+    <div id="overlay" class="overlay">
+        <div class="popup">
+            <p id="popupMessage">Level Failed</p>
+            <button onclick="retryLevel()">Retry</button>
+            <button onclick="quitGame()">Quit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

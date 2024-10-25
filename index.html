@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Card Game with Levels</title>
-    <link rel="stylesheet" href="style.css">
+    <title>GameMania</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <h1>Memory Card Game</h1>
-    <div class="level-info">
-        <p id="levelText">Level: 1</p>
-        <p id="timerText">Time Left: <span id="timeLeft"></span>s</p>
-    </div>
-    <div class="game-container">
-        <div class="game-board" id="gameBoard"></div>
-    </div>
-    <div id="overlay" class="overlay">
-        <div class="popup">
-            <p id="popupMessage">Level Failed</p>
-            <button onclick="retryLevel()">Retry</button>
-            <button onclick="quitGame()">Quit</button>
+    <header>
+        <h1>Welcome to GameMania</h1>
+        <p>Your destination for fun and games!</p>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="game-option">
+                <h2>Tic-Tac-Toe</h2>
+                <p>A classic game of Xs and Os!</p>
+                <button onclick="window.location.href='tic_tac_toe.html'">Play Now</button>
+            </div>
+            <div class="game-option">
+                <h2>Memory Card Game</h2>
+                <p>Test your memory skills!</p>
+                <button onclick="window.location.href='memory.html'">Play Now</button>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GameMania. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
